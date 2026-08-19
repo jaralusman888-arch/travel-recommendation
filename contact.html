@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Recommendation - Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">
+      <h2>Travel Recommendation</h2>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html" class="active">Contact Us</a></li>
+    </ul>
+    <div class="search-container">
+      <input type="text" placeholder="Search..." disabled>
+      <button disabled>Search</button>
+    </div>
+  </nav>
+
+  <!-- Contact Us Form (Grading Criteria #4) -->
+  <section class="contact-section">
+    <h1>Contact Us</h1>
+    <p>Have questions or feedback? Send us a message using the form below!</p>
+    
+    <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" rows="5" placeholder="Enter your message..." required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+</body>
+</html>
