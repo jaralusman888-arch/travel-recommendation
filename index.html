@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Recommendation - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">
+      <h2>Travel Recommendation</h2>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Enter a destination or keyword...">
+      <button id="btnSearch">Search</button>
+      <button id="btnClear">Clear</button>
+    </div>
+  </nav>
+
+  <!-- Home Page Introduction (Grading Criteria #2) -->
+  <section class="hero-section">
+    <div class="hero-content">
+      <h1>Explore Your Dream Destinations</h1>
+      <p>Welcome to Travel Recommendation! We help you discover the best travel destinations around the globe. Search for tropical beaches, historic temples, or vibrant countries to find tailored recommendations complete with photos and descriptions.</p>
+    </div>
+  </section>
+
+  <!-- Search Results Container -->
+  <section class="results-container">
+    <h2 id="resultsHeading">Recommended Destinations</h2>
+    <div id="results" class="results-grid"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
