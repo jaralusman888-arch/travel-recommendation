@@ -7,36 +7,36 @@ const data = {
   beaches: [
     {
       name: "Bora Bora Beach",
-      imageUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500",
+      imageUrl: "https://picsum.photos/id/1002/500/300",
       description: "A beautiful tropical beach with crystal clear blue water and soft white sand."
     },
     {
       name: "Copacabana Beach",
-      imageUrl: "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=500",
+      imageUrl: "https://picsum.photos/id/1015/500/300",
       description: "A world-famous beach known for its vibrant energy and golden shoreline."
     }
   ],
   temples: [
     {
       name: "Angkor Wat",
-      imageUrl: "https://images.unsplash.com/photo-1569154941061-e231b4725ef1?w=500",
+      imageUrl: "https://picsum.photos/id/1016/500/300",
       description: "A massive, historic temple complex located in Siem Reap, Cambodia."
     },
     {
       name: "Golden Temple",
-      imageUrl: "https://images.unsplash.com/photo-1548013146-72479768bada?w=500",
+      imageUrl: "https://picsum.photos/id/1025/500/300",
       description: "A prominent spiritual temple located in Amritsar, Punjab, India."
     }
   ],
   countries: [
     {
       name: "Australia",
-      imageUrl: "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=500",
+      imageUrl: "https://picsum.photos/id/1039/500/300",
       description: "A diverse country known for stunning natural landscapes and vibrant coastal cities."
     },
     {
       name: "Japan",
-      imageUrl: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=500",
+      imageUrl: "https://picsum.photos/id/1040/500/300",
       description: "An island nation famous for its rich culture, cherry blossoms, and advanced technology."
     }
   ]
